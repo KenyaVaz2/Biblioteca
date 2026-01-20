@@ -1,0 +1,40 @@
+# ===== General =====
+.DS_Store
+Thumbs.db
+*.log
+
+# ===== Secrets / env =====
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# ===== IDEs =====
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# ===== Spring Boot (servidor) =====
+servidor/target/
+servidor/.mvn/wrapper/maven-wrapper.jar
+
+# ===== Java =====
+*.class
+hs_err_pid*
+replay_pid*
+
+# ===== React (cliente) =====
+cliente/node_modules/
+cliente/build/
+cliente/dist/
+cliente/.env
+cliente/.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Coverage =====
+coverage/

@@ -1,0 +1,124 @@
+
+.perfil-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.perfil-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.perfil-header h2 {
+    color: #333;
+    font-weight: 700;
+}
+
+/* ALERTAS (Para deudas) */
+.alert {
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+/* TARJETAS (Cards) */
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    overflow: hidden; /* Para que la cabecera no se salga del borde redondeado */
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+}
+
+.card-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.bg-primary {
+    background-color: #0066cc; /* Azul institucional */
+}
+
+.bg-danger {
+    background-color: #dc3545; /* Rojo alerta */
+}
+
+.card-header h5 {
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+    overflow-x: auto; /* Para que la tabla tenga scroll en celular */
+}
+
+/* TABLAS */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #555;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f9fbfd;
+}
+
+/* FILAS DE MULTAS PENDIENTES (Rojo suave) */
+.table-danger {
+    background-color: #fff5f5;
+}
+
+.table-danger:hover {
+    background-color: #ffecec;
+}
+
+/* ETIQUETAS (Badges) */
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+
+.bg-success {
+    background-color: #28a745;
+}
+
+.bg-danger {
+    background-color: #dc3545;
+}
+
+.bg-secondary {
+    background-color: #6c757d;
+}
